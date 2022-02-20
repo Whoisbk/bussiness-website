@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dongle', sans-serif;
+
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.hero-home{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url("Assets/types-of-business-meetings-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    color: rgb(20, 125, 223);
+    justify-content: start;
+}
+
+.logo span{
+    color: black;
+}
+
+nav{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 25px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: ease 0.4s;
+}
+
+nav ul li a:hover{
+    color:rgb(20, 125, 223);
+    cursor: pointer;
+}
+
+
+.info{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 50%;
+    border-left: solid 5px white;
+    padding-left: 15px;
+}
+
+.info h2{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.info span{
+    color: rgb(20, 125, 223);
+    cursor: pointer;
+}
+
+.info p{
+    color: black;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.info a{
+    background-color: rgb(20, 125, 223);
+    padding: 10px 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+    color: white;
+    border-radius: 20px;
+    transition: ease 0.4s;
+    font-weight: bold;
+
+}
+
+.info a:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.img-box{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+
+.img-box img{
+    width: 95%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+
+
+
+.service{
+    background: white;
+    width: 100%;
+    padding:100px 0;
+}
+
+.title h2{
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.title span{
+    color: rgb(20, 125, 223);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+
+.card{
+    height: 500px;
+    width: 435px;
+    padding: 25px 25px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    align-items: center;
+    margin: 25px 0;
+    color: rgb(20, 125, 223);
+}
+
+h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.about{
+    background: white;
+    width: 100%;
+    padding:100px 0;
+}
+
+.title h2{
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 5px solid rgb(20, 125, 223) ;
+}
+
+.title span{
+    color: rgb(20, 125, 223);
+}
+
+.box-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+
+.card-about{
+    height: 500px;
+    width: 435px;
+    padding: 25px 25px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.card-about h5{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.pra-about p{
+    color: black;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+
+.contact{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h2{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.contact p{
+    color: white;
+    font-size: 17px;
+    width: 800px;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+
+.socials{
+    display: flex;
+}
+
+.socials a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(20, 125, 223);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.socials a:hover{
+    transform: scale(1.2);
+    transition: ease 0.4s;
+}
+
+
+.end{
+    position: absolute;
+    color: rgb(20, 125, 223);
+    bottom: 3px;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width:700px){
+
+    .hero-home{
+        width: 100%;
+
+    }
+    nav ul{
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        margin-bottom: 10px;
+        background-color:rgb(20, 125, 223);
+    }
+
+    nav ul li{
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    nav ul li a{
+        color: black;
+    }
+
+    nav ul li a:hover{
+        color: black;
+    }
+
+    .info{
+        margin-top: 40%;
+        width: 80%;
+    }
+
+    .info h2{
+        color: #191919;
+        font-size: 30px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+
+    }
+
+    .info p{
+        width: 300px;
+        font-size: 17px;
+    }
+
+    .nav img{
+        display: block;
+    }
+
+
+
+    .img-box{
+        background-position: bottom;
+    }
+    
+    .service{
+        background: white;
+        width: 100%;
+        padding:100px 0;
+    }
+    
+    .title h2{
+        color: black;
+        font-size: 50px;
+        width: 250px;
+        margin-top: 5%;
+        margin-left: 5%;
+        text-align: start;
+        border-bottom: 5px solid rgb(20, 125, 223);
+    }
+
+    .box{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        min-width: 400px;
+    }
+
+    .card{
+        height: 500px;
+        width: 255px;
+        padding: 15px 25px;
+        background: #191919;
+        border-radius: 20px;
+        margin: 15px;
+        margin-left: 10%;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        
+    
+    }
+    
+h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: white;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+
+    .card i{
+        font-size: 50px;
+        display: block;
+        align-items: center;
+        margin: 25px 0;
+        color: rgb(20, 125, 223);
+    }
+    
+
+    .contact{
+        position: relative;
+        width: 100%;
+        margin-top: 30%;
+        height: 700px;
+        background: #191919;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact h2{
+        font-size: 40px;
+        color: white;
+        margin-bottom: 20px;
+        font-weight: bold;
+    
+    }
+    
+    .contact p{
+        color: white;
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+        line-height: 26px;
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+    }
+    
+    
+    .socials{
+        display: flex;
+    }
+    
+    .socials a{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(20, 125, 223);
+        border-radius: 50%;
+        margin: 22px 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .socials a:hover{
+        transform: scale(1.2);
+        transition: ease 0.4s;
+    }
+    
+    
+    .end{
+        position: absolute;
+        color: rgb(20, 125, 223);
+        bottom: 3px;
+        font-size: 14px;
+    }
+
+    .about{
+        background: white;
+        width: 100%;
+        padding:100px 0;
+    }
+    
+    .title h2{
+        color: black;
+        font-size: 50px;
+        width: 250px;
+        margin-top: 5%;
+        margin-left: 20%;
+        text-align: center;
+        justify-content: center;
+        border-bottom: 5px solid rgb(20, 125, 223);
+    }
+    
+    .title span{
+        color: rgb(20, 125, 223);
+    }
+    
+    .box-about{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        min-width: 400px;
+    }
+    
+    .card-about{
+        height: 300px;
+        width: 335px;
+        padding: 25px 25px;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    
+    }
+    
+    .card-about h5{
+        color: black;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .pra-about p{
+        color: black;
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    
+   
+}
